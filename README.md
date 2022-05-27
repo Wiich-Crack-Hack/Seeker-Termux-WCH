@@ -11,11 +11,8 @@
 # ===================
 # 📡
 #### El concepto detrás de Seeker es simple, al igual que alojamos páginas de phishing para obtener credenciales por qué no alojar una página falsa que solicite su ubicación como muchos sitios web populares basados en la ubicación.Seeker aloja un sitio web falso que pide permiso de ubicación.
-### 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥
 # 📡
 #### La verdad les va sorprender lo que podemos llegar a obtener usando SEEKER claro siempre y cuando nuestro objetivo nos lo permita, lo que se puede llegar a obtener es lo siguiente:
-
-### 🔗 🔗 🔗 🔗 🔗 🔗 🔗 🔗 🔗 🔗 🔗
 ### ✅Longitud
 
 ### ✅Latitud
@@ -42,7 +39,6 @@
 ##### ♦️Dirección IP local
 ##### ♦️Puerto local
 ### 🔷 🔷 🔷 🔷 🔷 🔷 🔷 🔷 🔷 🔷 🔷
-# 📡
 ### El reconocimiento automático de la dirección IP se realiza después de recibir la información anterior.
 # ⚠️
 ##### Esta herramienta es una prueba de concepto,es sólo para fines educativos, Seeker muestra datos que un sitio web malicioso puede recopilar sobre usted y sus dispositivos y por qué usted no debe hacer clic en enlaces al azar y permitir permisos críticos como la ubicación, etc.
@@ -98,20 +94,12 @@
 ##### 💲 chmod +x install.sh
 
 ##### 💲 ./install.sh
-# 📌
-#### Para poder ejecutar en modo túnel, instale ngrok ejecutando el siguiente comando en la terminal:
-#### 💲 brew install ngrok/ngrok/ngrok
-
-#### Despues el siguiente comando:
-#### 💲 ngrok http 8080
 ## 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️
+
 # 📡USO DE SEEKER📡
-
-#### 💲 seeker.py -h
-
+## 💲 python3 seeker.py -h
 ## 🔴OPCIONES DE USO🔴
-#### 👉 seeker.py [-h] [-k KML] [-p PORT] [-u] [-v]
-
+#### 👉 python3 seeker.py [-h] [-k KML] [-p PORT] [-u] [-v]
 ## 🔴SIGNIFICADO--OPCIONES🔴
 ##### 👉 -h, --help muestra este mensaje de ayuda y sale
 ##### 👉 -k KML, --kml Nombre del archivo KML
@@ -139,6 +127,9 @@
 #### 📲 Utilizar puerto personalizado
 #### 💲 python3 seeker.py -p 1337
 #### 💲 ./ngrok http 1337
+### Como Tunel Local puede utilizar:
+#### ssh -R 80:localhost:8080 nokey@localhost.run
+
 ## 👽 👽 👽 👽 👽 👽 👽 👽 👽
 ### 👉SOLO RECUERDEN APOYAR ESTE
 ### 👉REPOSITORIO DÁNDOLE UNA 🌟 
